@@ -31,6 +31,5 @@
 ✔️ Prevenir emails duplicados  
 ✔️ Armazenar dados temporariamente no estado  
 
----
 
-📌 Esse é um esqueleto básico para uma aplicação monolítica utilizando React!
+
