@@ -5,9 +5,9 @@
 Tipos de Arquitetura: Monolítica
 
 [Interface  (Componentes Visuais)]<br>
-<p align="center">↧</p>
+↧
 [Lógica de Negócio (Funções/Estados)]<br>
-<p align="center">↧</p>
+↧
 [Acesso a Dados (LocalStorage, ou API locais/simulados)]<br>
 ---
 Imterface: JSX visível ao usuário.<br>
