@@ -1,20 +1,36 @@
-# Aps-06-05
-06/05 - ANÁLISE  E PROJETO DE SISTEMAS (APS)<br>
-~> TEMA: CRIAÇÃO DE UMA ARQUITERUA BASICA PARA SISTEMAS PEQUENOS<br>
+# APS-06-05
+## 06/05 - Análise e Projeto de Sistemas (APS)
+### Tema: Criação de uma Arquitetura Básica para Sistemas Pequenos
 
-Tipos de Arquitetura: Monolítica
+---
 
-[Interface  (Componentes Visuais)]<br>
-↧
-[Lógica de Negócio (Funções/Estados)]<br>
-↧
-[Acesso a Dados (LocalStorage, ou API locais/simulados)]<br>
+### Tipos de Arquitetura: Monolítica
+
+**Fluxo de Arquitetura:**  
+📌 **Interface (Componentes Visuais)**  
+⬇️ **Lógica de Negócio (Funções/Estados)**  
+⬇️ **Acesso a Dados (LocalStorage ou API locais/simuladas)**  
+
 ---
-Imterface: JSX visível ao usuário.<br>
-Lógica de Negócios; validações, manipulação de dados, regras.<br>
-Acesso aos Dados: estados (useState()) ou comunicação com serviços/API<br>
+
+### Descrição das Camadas
+
+✅ **Interface:** JSX visível ao usuário.  
+✅ **Lógica de Negócio:** Validações, manipulação de dados, regras.  
+✅ **Acesso aos Dados:** Estados (`useState()`) ou comunicação com serviços/API.  
+
 ---
-Componentes:<br>
-formularioCLiente, ListaCliente, App<br>
-Lógica; evitar cadastro com campos vazio. Evitar emails duplicados <br>
-Armazenar dados temporariamente no estado.<br>
+
+### Componentes Principais
+- `FormularioCliente`
+- `ListaCliente`
+- `App`
+
+### Regras de Lógica
+✔️ Evitar cadastro com campos vazios  
+✔️ Prevenir emails duplicados  
+✔️ Armazenar dados temporariamente no estado  
+
+---
+
+📌 Esse é um esqueleto básico para uma aplicação monolítica utilizando React!
