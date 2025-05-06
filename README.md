@@ -4,9 +4,9 @@
 
 Tipos de Arquitetura: Monolítica
 
-[Interface  (Componentes Visuais)]
+[Interface  (Componentes Visuais)]<br>
                  ↧
-[Lógica de Negócio (Funções/Estados)]
+[Lógica de Negócio (Funções/Estados)]<br>
                 ↧
 [Acesso a Dados (LocalStorage, ou API locais/simulados)]
 ---
