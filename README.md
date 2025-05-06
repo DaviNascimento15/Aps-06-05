@@ -5,16 +5,16 @@
 Tipos de Arquitetura: Monolítica
 
 [Interface  (Componentes Visuais)]<br>
-                 ↧
+                 ↧<br>
 [Lógica de Negócio (Funções/Estados)]<br>
-                ↧
-[Acesso a Dados (LocalStorage, ou API locais/simulados)]
+                ↧<br>
+[Acesso a Dados (LocalStorage, ou API locais/simulados)]<br>
 ---
-Imterface: JSX visível ao usuário.
-Lógica de Negócios; validações, manipulação de dados, regras.
-Acesso aos Dados: estados (useState()) ou comunicação com serviços/API
+Imterface: JSX visível ao usuário.<br>
+Lógica de Negócios; validações, manipulação de dados, regras.<br>
+Acesso aos Dados: estados (useState()) ou comunicação com serviços/API<br>
 ---
-Componentes:
-formularioCLiente, ListaCliente, App
-Lógica; evitar cadastro com campos vazio. Evitar emails duplicados 
-Armazenar dados temporariamente no estado.
+Componentes:<br>
+formularioCLiente, ListaCliente, App<br>
+Lógica; evitar cadastro com campos vazio. Evitar emails duplicados <br>
+Armazenar dados temporariamente no estado.<br>
